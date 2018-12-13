@@ -22,7 +22,7 @@ stages:
       buildContext: .
       tag: php-example:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
-      registry: jjdxzm/php
+      registry: jjdxzm/php-example
 - name: Deploy
   steps:
   - applyYamlConfig:
